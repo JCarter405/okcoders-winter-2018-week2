@@ -1,6 +1,23 @@
 
 .body {
-	border: solid red 10px
+	padding: 10px;
+}
+
+a:link {
+	color: orange;
+	font: 10px;
+}
+
+a.newcolor:link	{
+	color: red;
+}
+
+a:hover {
+	color: red;
+}
+
+a:visted {
+	color: darkred;
 }
 
 .special {
@@ -15,4 +32,12 @@
 	margin: 20px;
 	border: solid 1px green;
 
+}
+.leadmessage p {
+	font-family: sans-serif;
+
+}
+
+p: nth-child(odd) {
+	font-weight: bold;
 }
