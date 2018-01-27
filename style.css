@@ -1,17 +1,18 @@
 
-li {
-		font-weight: bold;
-		color: BurlyWood;
-		font-size; 16pt;
-	}
-	#banner {
-		color: darkred;
-	}
-		.leadmessage{
-			color: green;
+.body {
+	border: solid red 10px
+}
 
-		}
-		.special {
-			color: purple;
+.special {
+	color: red;
+}
+.second {
+	border: solid 5px black;
+	padding: 10px;
 
-		}
+}
+.third {
+	margin: 20px;
+	border: solid 1px green;
+
+}
